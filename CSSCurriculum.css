@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.flex-container {
+    display: flex; 
+    height: 500px; 
+    width: 100%; 
+    
+}
+
+.column {
+    flex: 1;  
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+
+.imagen-circular {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    display: block; 
+}
+
+.iconos{
+    width: 25px;
+    height: 25px;
+}
