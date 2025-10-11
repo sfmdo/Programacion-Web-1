@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Bienvenido</h1>
+    <button onclick="CambiarTexto()" id="boton">No me toques</button>
+
+    <script>
+        function CambiarTexto(){
+            const titulo = document.getElementById("titulo");
+            titulo.textContent = "No debiste tocarlo";
+            titulo.style.color="red";
+            titulo.style.fontSize="200px";
+            titulo.style.margin="150px"
+
+            const button = document.getElementById("boton")
+            button.textContent = "Santiago es guapo";
+            button.style.color="red"
+            button.textContent="x"
+            button.style.alignItems="center"
+        }
+    </script>
+</body>
+</html>
